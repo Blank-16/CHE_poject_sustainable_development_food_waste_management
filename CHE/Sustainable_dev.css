@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*{
+    border-radius: 20px;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar {
+    background-color: rgb(147, 255, 246);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid black;
+    width: 95%;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-color: white;
+
+}
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 10px;
+    transition: 500ms;
+    position: relative;
+
+}
+.nav-links {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nav-links:hover {
+    background-color: rgb(0, 255, 76);
+    border: 3px solid black; 
+}
+
+.navbar  a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.navbar h1 {
+    margin-left: 10px;
+    border: 3px solid black;
+    width: 50px;
+    padding: 10px;
+
+}
+.intro {
+    
+    width: 95%;
+    margin: 10px auto;
+    display: flex;
+    background-color: rgb(120, 209, 234);
+    
+}
+.intro .intro-para {
+    padding: 10px;
+    border: 3px solid black;
+}
+.intro_btn {
+    width: 140px;
+    font-size: large;
+    height: 40px;
+    padding: 10px;
+    border: 3px solid black;
+    align-items: center;
+    font-weight: bolder;        
+}
+.intro_btn:hover {
+    background-color: black;
+    color: white;
+}
+video {
+    border: 3px solid black;
+}
+.About {
+    width: 95%;
+    margin: 10px auto;  
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding-left: 10px;
+    border-color: white;
+
+}
+.about-para {
+    padding: 15px;
+}
+.about_btn {
+    width: 140px;
+    font-size: large;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+    align-items: center;
+    font-weight: bolder;
+
+}
+.about_btn:hover {
+    border: 3px solid black;
+    color: black;
+    background-color: white;
+    
+}
+.about-para p {
+    font-size: 20px;
+    font-weight: 600;    
+}
+
+
+.cards {
+    width: 91%;
+    margin: auto;
+    background-color: #1dff33b6;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.cards h1 {
+    margin: 20px auto;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+
+}
+.card_member h4 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold !important;
+    margin: 0 auto;
+}
+.cards_back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_member {
+    width: 300px;
+    height: 200px;
+    background-color: white;
+    margin: 15px;
+    border: 3px solid black;
+    box-shadow: 7px 7px 0 black;
+    padding: 10px;
+    transition: 400ms;
+}
+.card_member button {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid black;
+
+}
+.card_member button:hover {
+    background-color: black;
+    color: white;
+    transition: 700ms;
+}
+.card_member:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 0 black;
+}
+
+
+.cards p{
+    color: black;
+    font-style :oblique;
+    font-size: 20px;
+}
+    
+.footer {
+    background-color:  rgb(255, 126, 126);
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+
+}
+.info{
+    background-color: rgb(172, 174, 252);
+    padding: 30px;
+    margin: 10px 50px 10px 50px;
+    font-size: 15px;
+}
+.footer_contact{
+    padding-left: 30px;
+}
+.footer_contact a{
+    text-decoration: none;
+    color: black;
+}
+.footer_contact ul{
+    list-style: none;
+}
+.footer_contact li:hover {
+    color: white;
+}
